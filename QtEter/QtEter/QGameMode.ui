@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+  <class>QGameModeClass</class>
+  <widget class="QMainWindow" name="QGameModeClass">
+    <property name="windowTitle">
+      <string>Eter Game</string>
+    </property>
+    <property name="styleSheet">
+      <string notr="true">
+        QMainWindow {
+        background: #555555;
+        }
+      </string>
+    </property>
+
+
+
+
+    <widget class="QWidget" name="gameModeWidget">
+      <property name="styleSheet">
+        <string notr="true">
+          QPushButton {
+          height:300px;
+          width:1000px;
+          background: #dddddd;
+          border-radius:4px;
+          border:2px solid #bbbbbb;
+          margin:20px;
+          font-size:30px;
+          font-family:Comfortaa;
+          }
+          QPushButton:hover{
+          background: #e37c14;
+          }
+          QVBoxLayout{
+          background:red;
+          width:300px;
+          }
+          QLineEdit{
+          height:100px;
+          background:#aaaaaa;
+          font-size:28px;
+          border-radius:4px;
+          padding:20px;
+          font-family:Comfortaa;
+          }
+          QComboBox{
+          height:100px;
+          padding:20px;
+          font-size:28px;
+          background:#aaaaaa;
+          border-radius:4px;
+          font-family:Comfortaa;
+          }
+        </string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+          <widget class="QPushButton" name="gameI">
+            <property name="text">
+              <string>New game</string>
+            </property>
+          </widget>
+        </item>
+        <item>
+          <widget class="QPushButton" name="gameII">
+            <property name="text">
+              <string>New game</string>
+            </property>
+          </widget>
+        </item>
+        <item>
+          <widget class="QPushButton" name="gameIII">
+            <property name="text">
+              <string>New game</string>
+            </property>
+          </widget>
+        </item>
+
+
+
+
+
+        <item>
+          <widget class="QLineEdit" name="namePlayer1">
+            <property name="placeholderText">
+              <string>Player 1</string>
+            </property>
+          </widget>
+        </item>
+        <item>
+          <widget class="QLineEdit" name="namePlayer2">
+            <property name="placeholderText">
+              <string>Player 2</string>
+            </property>
+          </widget>
+        </item>
+        <item>
+          <widget class="QComboBox" name="singleSelector">
+            <item>
+              <property name="text">
+                <string>Training</string>
+              </property>
+            </item>
+            <item>
+              <property name="text">
+                <string>Duel of Wizards</string>
+              </property>
+            </item>
+            <item>
+              <property name="text">
+                <string>Duel of Elements</string>
+              </property>
+            </item>
+          </widget>
+        </item>
+        <item>
+          <widget class="QPushButton" name="play">
+            <property name="text">
+              <string>Play</string>
+            </property>
+          </widget>
+        </item>
+      </layout>
+
+
+
+
+
+    </widget>
+
+
+
+  </widget>
+
+  <resources>
+    <include location="Eter.qrc"/>
+  </resources>
+  <connections/>
+</ui>

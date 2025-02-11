@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EterClass</class>
+ <widget class="QMainWindow" name="EterClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>504</width>
+    <height>561</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+    <string>Eter Game</string>
+  </property>
+  <property name="styleSheet">
+    <string notr="true">
+      QMainWindow {
+      background: none;
+      }
+      QWidget#centralWidget {
+      background-repeat: no-repeat;
+      background-image: url(mainW.png);
+      background-position: center;
+      }
+    </string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="centralLayout">
+    <item>
+     <spacer name="verticalSpacerTop">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+      
+     <widget class="QGroupBox" name="groupBox">
+       
+      <property name="styleSheet">
+       <string notr="true">
+         QGroupBox{
+         border:none;
+         }
+         QPushButton {
+         color:black;
+         background-color:rgba(205,215,200,0.7);
+         margin:0 150px;
+         padding:10px 0;
+         border-radius:4px;
+         font-size:24px;
+         font-weight:700;
+         font-family:Comfortaa;
+         }
+         QPushButton:hover{
+         background-color:rgba(180,180,180,0.7);
+         }
+       </string>
+      </property>
+       
+      <property name="title">
+      </property>
+       
+       
+      <layout class="QVBoxLayout" name="verticalLayout">
+        
+        
+       <item>
+        <widget class="QPushButton" name="playButton">
+         <property name="text">
+          <string>Play</string>
+         </property>
+        </widget>
+       </item>
+        
+        
+       <item>
+        <widget class="QPushButton" name="loadButton">
+         <property name="text">
+          <string>Load</string>
+         </property>
+        </widget>
+       </item>
+        
+        
+       <item>
+        <widget class="QPushButton" name="rulesButton">
+         <property name="text">
+          <string>Rules</string>
+         </property>
+        </widget>
+       </item>
+        
+        
+      </layout>
+       
+       
+     </widget>
+      
+    </item>
+     
+    <item>
+     <spacer name="verticalSpacerBottom">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint">
+       <size>
+        <width>20</width>
+        <height>30</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+     
+     
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Eter.qrc"/>
+ </resources>
+ <connections/>
+</ui>

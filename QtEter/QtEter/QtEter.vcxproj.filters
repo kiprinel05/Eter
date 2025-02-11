@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Card">
+      <UniqueIdentifier>{d2db71dd-6d8d-4a24-a0aa-4fe43ed1770d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{997eaaf2-afd3-46ef-8334-d26f4c2bc390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\DuelElements">
+      <UniqueIdentifier>{339e93ea-44cb-4457-a564-214a711940ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\DuelOfWizards">
+      <UniqueIdentifier>{42c094bc-ca33-44ed-9f93-1f006c6aa194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Turnir">
+      <UniqueIdentifier>{1b6333df-76ad-4fd4-8b89-a690778058dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Match">
+      <UniqueIdentifier>{0ac28793-bd70-4b3e-890f-9c44cc84a058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{0d03541a-5e21-4070-b6a2-e3d0f5eebff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Table">
+      <UniqueIdentifier>{259a473b-a4a9-47ef-bbae-1775e88735e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Training">
+      <UniqueIdentifier>{cd0e38e1-b536-4b50-9144-3f4baf76f2f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gamemode">
+      <UniqueIdentifier>{67258498-cd9f-4a74-b7d4-b74fff279d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interface">
+      <UniqueIdentifier>{90977efe-d0ff-432f-8856-6414487a1c5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interface\Eter">
+      <UniqueIdentifier>{9e1bee93-ddc8-4178-ba8d-c16c60e42b09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interface\GameMode">
+      <UniqueIdentifier>{46273ae6-1744-4ab1-9b69-1eac9172ff58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interface\Training">
+      <UniqueIdentifier>{f43d9eba-e3a9-42ad-81ec-f894cda26210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Saves">
+      <UniqueIdentifier>{55ab5a94-1cdf-42a0-8cb6-dd8ab79f3fe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Wizard">
+      <UniqueIdentifier>{5ea88d02-bbfc-4a25-97b3-42d8918bc956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Element">
+      <UniqueIdentifier>{da1ea954-eae1-48a1-97fd-99febb1f697a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Eter.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="Eter.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>Source Files\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="DuelElements.cpp">
+      <Filter>Source Files\Game\DuelElements</Filter>
+    </ClCompile>
+    <ClCompile Include="DuelOfWizards.cpp">
+      <Filter>Source Files\Game\DuelOfWizards</Filter>
+    </ClCompile>
+    <ClCompile Include="Training.cpp">
+      <Filter>Source Files\Game\Training</Filter>
+    </ClCompile>
+    <ClCompile Include="Turnir.cpp">
+      <Filter>Source Files\Game\Turnir</Filter>
+    </ClCompile>
+    <ClCompile Include="Match.cpp">
+      <Filter>Source Files\Match</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Eter.cpp">
+      <Filter>Source Files\Interface\Eter</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>Source Files\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="Gamemode.cpp">
+      <Filter>Source Files\Gamemode</Filter>
+    </ClCompile>
+    <ClCompile Include="QGameMode.cpp">
+      <Filter>Source Files\Interface\GameMode</Filter>
+    </ClCompile>
+    <ClCompile Include="QTraining.cpp">
+      <Filter>Source Files\Interface\Training</Filter>
+    </ClCompile>
+    <ClCompile Include="Wizard.cpp">
+      <Filter>Source Files\Wizard</Filter>
+    </ClCompile>
+    <ClCompile Include="WizardsPower.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Element.cpp">
+      <Filter>Source Files\Element</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Card.h">
+      <Filter>Source Files\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Match.h">
+      <Filter>Source Files\Match</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>Source Files\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="Gamemode.h">
+      <Filter>Source Files\Gamemode</Filter>
+    </ClInclude>
+    <ClInclude Include="Wizard.h">
+      <Filter>Source Files\Wizard</Filter>
+    </ClInclude>
+    <ClInclude Include="ElementsPower.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Element.h">
+      <Filter>Source Files\Element</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Eter.h">
+      <Filter>Source Files\Interface\Eter</Filter>
+    </QtMoc>
+    <QtMoc Include="QGameMode.h">
+      <Filter>Source Files\Interface\GameMode</Filter>
+    </QtMoc>
+    <QtMoc Include="QTraining.h">
+      <Filter>Source Files\Interface\Training</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="QGameMode.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="QTraining.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="save1.txt">
+      <Filter>Saves</Filter>
+    </Text>
+    <Text Include="save2.txt">
+      <Filter>Saves</Filter>
+    </Text>
+    <Text Include="save3.txt">
+      <Filter>Saves</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

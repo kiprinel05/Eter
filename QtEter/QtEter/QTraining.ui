@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui version="4.0">
+  <class>QTrainingClass</class>
+  <widget class="QMainWindow" name="QTrainingClass">
+    <property name="windowTitle">
+      <string>Eter Game</string>
+    </property>
+    <property name="styleSheet">
+      <string notr="true">
+        QMainWindow {
+        background: #dddddd;
+        }
+      </string>
+    </property>
+    <widget class="QWidget" name="trainingTableWidget">
+      <property name="styleSheet">
+        <string>
+          QPushButton{
+          height:2000px;
+          width:2000px;
+          border-radius:4px;
+          background:#aaaaaa;
+          }
+          QPushButton:hover{
+          background:#1bb500;
+          }
+        </string>
+      </property>
+      <layout class="QGridLayout" name="trainingTable">
+        
+        <!-- tabla -->
+        <!-- rand 1 -->
+        <item row="0" column="0">
+          <widget class="QPushButton" name="space00">
+            <property name="text">
+              <string>spatiul00</string>
+            </property>
+          </widget>
+        </item>
+
+
+        <item row="0" column="1">
+          <widget class="QPushButton" name="space01">
+            <property name="text">
+              <string>spatiul01</string>
+            </property>
+          </widget>
+        </item>
+
+
+        <item row="0" column="2">
+          <widget class="QPushButton" name="space02">
+            <property name="text">
+              <string>spatiul02</string>
+            </property>
+          </widget>
+        </item>
+
+
+        <item row="0" column="3">
+          <widget class="QPushButton" name="space03">
+            <property name="text">
+              <string>spatiul03</string>
+            </property>
+          </widget>
+        </item>
+
+
+        <item row="0" column="4">
+          <widget class="QPushButton" name="space04">
+            <property name="text">
+              <string>spatiul04</string>
+            </property>
+          </widget>
+        </item>
+
+        <!-- rand 2 -->
+
+        <item row="1" column="0">
+          <widget class="QPushButton" name="space10">
+            <property name="text">
+              <string>spatiul10</string>
+            </property>
+          </widget>
+        </item>
+
+
+        <item row="1" column="1">
+          <widget class="QPushButton" name="space11">
+            <property name="text">
+              <string>spatiul11</string>
+            </property>
+          </widget>
+        </item>
+
+
+        <item row="1" column="2">
+          <widget class="QPushButton" name="space12">
+            <property name="text">
+              <string>spatiul12</string>
+            </property>
+          </widget>
+        </item>
+
+
+        <item row="1" column="3">
+          <widget class="QPushButton" name="space13">
+            <property name="text">
+              <string>spatiul13</string>
+            </property>
+          </widget>
+        </item>
+
+
+        <item row="1" column="4">
+          <widget class="QPushButton" name="space14">
+            <property name="text">
+              <string>spatiul14</string>
+            </property>
+          </widget>
+        </item>
+        
+        <!-- rand 3 -->
+
+        <item row="2" column="0">
+          <widget class="QPushButton" name="space20">
+            <property name="text">
+              <string>spatiul20</string>
+            </property>
+          </widget>
+        </item>
+
+
+        <item row="2" column="1">
+          <widget class="QPushButton" name="space21">
+            <property name="text">
+              <string>spatiul21</string>
+            </property>
+          </widget>
+        </item>
+
+
+        <item row="2" column="2">
+          <widget class="QPushButton" name="space22">
+            <property name="text">
+              <string>spatiul22</string>
+            </property>
+          </widget>
+        </item>
+
+
+        <item row="2" column="3">
+          <widget class="QPushButton" name="space23">
+            <property name="text">
+              <string>spatiul23</string>
+            </property>
+          </widget>
+        </item>
+
+
+        <item row="2" column="4">
+          <widget class="QPushButton" name="space24">
+            <property name="text">
+              <string>spatiul24</string>
+            </property>
+          </widget>
+        </item>
+        
+        <!-- rand 4 -->
+
+        <item row="3" column="0">
+          <widget class="QPushButton" name="space30">
+            <property name="text">
+              <string>spatiul30</string>
+            </property>
+          </widget>
+        </item>
+
+
+        <item row="3" column="1">
+          <widget class="QPushButton" name="space31">
+            <property name="text">
+              <string>spatiul31</string>
+            </property>
+          </widget>
+        </item>
+
+
+        <item row="3" column="2">
+          <widget class="QPushButton" name="space32">
+            <property name="text">
+              <string>spatiul32</string>
+            </property>
+          </widget>
+        </item>
+
+
+        <item row="3" column="3">
+          <widget class="QPushButton" name="space33">
+            <property name="text">
+              <string>spatiul33</string>
+            </property>
+          </widget>
+        </item>
+
+
+        <item row="3" column="4">
+          <widget class="QPushButton" name="space34">
+            <property name="text">
+              <string>spatiul34</string>
+            </property>
+          </widget>
+        </item>
+
+        <!-- rand 5 -->
+
+        <item row="4" column="0">
+          <widget class="QPushButton" name="space40">
+            <property name="text">
+              <string>spatiul40</string>
+            </property>
+          </widget>
+        </item>
+
+
+        <item row="4" column="1">
+          <widget class="QPushButton" name="space41">
+            <property name="text">
+              <string>spatiul41</string>
+            </property>
+          </widget>
+        </item>
+
+
+        <item row="4" column="2">
+          <widget class="QPushButton" name="space42">
+            <property name="text">
+              <string>spatiul42</string>
+            </property>
+          </widget>
+        </item>
+
+
+        <item row="4" column="3">
+          <widget class="QPushButton" name="space43">
+            <property name="text">
+              <string>spatiul43</string>
+            </property>
+          </widget>
+        </item>
+
+
+        <item row="4" column="4">
+          <widget class="QPushButton" name="space44">
+            <property name="text">
+              <string>spatiul44</string>
+            </property>
+          </widget>
+        </item>
+
+        <!-- cartile -->
+        
+        <item row="0" column="3">
+          <widget class="QPushButton" name="space00">
+            <property name="text">
+              <string>cartile primului jucator</string>
+            </property>
+          </widget>
+        </item>
+        <item row="2" column="3">
+          <widget class="QPushButton" name="space00">
+            <property name="text">
+              <string>cartile la al doilea jucator</string>
+            </property>
+          </widget>
+        </item>
+
+
+      </layout>
+    </widget>
+
+
+  </widget>
+
+  <resources>
+    <include location="Eter.qrc"/>
+  </resources>
+  <connections/>
+</ui>
