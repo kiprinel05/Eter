@@ -51,8 +51,4 @@ Eter este un joc de strategie pentru doi jucători, inspirat din jocurile clasic
 3. Scopul este de a elimina cărțile adversarului și de a câștiga prin strategie.
 
 ## Autor
-Proiect realizat de [Numele tău sau echipa ta].
-
-
-Video YouTube:
-
+Proiect realizat de Ciprian Dumitrasc.
